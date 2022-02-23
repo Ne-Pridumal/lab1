@@ -8,21 +8,13 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="./manifest.json" />
   <title>React App</title>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-  <script charset="UTF-8">
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./service-worker.js')
-          .then(reg => { console.log('success:', reg.scope); })
-          .catch(err => { console.log('error:', err); })
-      })
-    }
-  </script>
 </body>
 
 </html>

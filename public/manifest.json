@@ -1,0 +1,15 @@
+{
+	"short_name": "lab1",
+	"name": "lab1",
+	"icons": [
+		{
+			"src": "/favicon.ico",
+			"type": "ico",
+			"sizes": "16*16"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#ffffff",
+	"background_color": "#000000"
+}
